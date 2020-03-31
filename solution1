@@ -2,7 +2,7 @@ l=eval(input())
 n=int(input())
 new=[]
 for i in l:
-  if i[0] not in mew:
+  if i[0] not in new:
     new.append(i[0])
 dct={}
 for i in new:
